@@ -17,7 +17,9 @@ arr.forEach(button =>{
         }
         else if(evt.target.innerHTML=='⌫')
             {
-                string=string.substring(0,string.length-1);
+                string=string.toString();
+                string=string.slice(0,string.length-1);
+                
                 input.value=string;
             }
             else if(evt.target.innerHTML=='+/-')
