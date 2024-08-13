@@ -25,6 +25,21 @@ arr.forEach(button =>{
                         string=-1 * string;
                     input.value=string;
                 }
+                else if(evt.target.innerHTML=='÷')
+                    {
+                        string+="/";
+                        input.value=string;
+                    }
+                    else if(evt.target.innerHTML=='×')
+                        {
+                            string+="*";
+                            input.value=string;
+                        } 
+                        else if(evt.target.innerHTML=='.')
+                            {
+                                string+=".";
+                                input.value=string;
+                            }
             else{
                 string+=evt.target.innerHTML;
                 input.value=string;
