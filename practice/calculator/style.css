@@ -1,0 +1,83 @@
+*
+{
+    margin:0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    color: red;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+#layout{
+    width:40rem;
+    height: 75vh;
+    display: inline-block;
+    text-align: center;
+    justify-content: space-evenly;
+    margin:0rem 5rem 2rem 22rem;
+    border: 2px solid black;
+    border-radius: 2rem;
+    background-color: rgba(84,84,84,1);
+}
+#compute_div{
+    
+    padding: 20px;
+    border-radius: 2%;
+    background:transparent;
+    /*box-shadow: 0px 3px 15px rgba(113,115,119,0.5);*/
+}
+input{
+    width:30rem;
+    border:1px solid wheat;
+padding: 24px;
+margin: 10px;
+border-radius: 3rem;
+background: transparent;
+box-shadow: 0px 3px 15px rgba(84,84,84,0.1);
+font-size: 20px;
+text-align: right;
+cursor: pointer;
+color: white;
+}
+input::placeholder{
+    color: whitesmoke;
+}
+.lines
+{
+    display: block;
+    justify-content: space-evenly;
+
+}
+button{
+    width:50px;
+    height: 50px;
+    border:none;
+margin: 10px;
+background: transparent;
+text-align: center;
+/*box-shadow: -8px -8px 15px rgba(255,255,255,0.1);*/
+
+font-size: 30px;
+font-weight: 700;
+cursor: pointer;
+color: white;
+}
+.equals{
+    font-weight: bolder;
+    font-size: 30;
+    color: white;
+    width:8.5rem;
+    border-radius: 2rem;
+    background-color: #fb7c14;
+}
+.operator{
+    color: #fb7c14;
+}
+.line{
+    display: inline-flex;
+    flex-grow: initial;
+}
+button:hover{
+    background-color: darkslategrey;
+}
